@@ -396,7 +396,7 @@
         _loadingImageView = [[UIImageView alloc] initWithImage:_loadingImage];
         _loadingImageView.center = self.center;
         _loadingImageView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
-        _loadingImageView.backgroundColor = [UIColor clearColor];
+        _loadingImageView.backgroundColor = [UIColor blackColor];
         [_tapView addSubview:_loadingImageView];
     }
 }
